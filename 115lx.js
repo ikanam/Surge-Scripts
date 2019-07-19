@@ -1,7 +1,7 @@
 /*
 使用方法：
 1.在[Script]分组下添加下面这行配置
-http-response ^http:\/\/115\.com\/lx.*$ script-path=https://raw.githubusercontent.com/ikanam/Surge-Script/master/115lx.js, requires-body=true
+http-response ^http:\/\/115\.com\/lx.*$ script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/115lx.js, requires-body=true
 2.[MITM]分组添加hostname = *.115.com
 3.在115Aapp中通过网页打开http://115.com/lx?taskdg=1(可在记录中保存该地址打开, 也可添加下面的配置将首页签按钮跳转重定向到离线下载页面)
 [URL Rewrite]
