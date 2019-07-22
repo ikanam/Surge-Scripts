@@ -1,5 +1,6 @@
 /*
 使用方法：
+注意：该脚本无破解离线功能,只是给新版115的App添加创建离线任务的方法。
 1.在[Script]分组下添加下面这行配置
 http-response ^http:\/\/115\.com\/lx.*$ script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/115lx.js, requires-body=true
 2.[MITM]分组添加hostname = *.115.com
