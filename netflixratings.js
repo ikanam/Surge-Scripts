@@ -9,7 +9,6 @@ http-response https:\/\/ios\.prod\.ftl\.netflix\.com\/iosui\/user\/.*path=%5B%22
 5.API每日有1000次请求限制，如果超出限制请自己申请APIKey替换.(http://www.omdbapi.com/apikey.aspx)
 */
 if ($request.headers != undefined) {
-    console.log("request.header" + $request.headers);
     var url = $request.url;
     url = url.replace(/&languages=zh-.{2,4}&/g, "&languages=en-US&")
     $done({url});
